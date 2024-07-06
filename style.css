@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding : 0;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 4px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(54, 21, 217);
+    font-size: 2em;
+}
+
+.header #nav-links {
+    display: flex;
+    gap: 50px;
+
+}
+.header #nav-links li {
+    list-style: none;
+}
+
